@@ -8,7 +8,7 @@ Terrain Reporting
     
 The terrain module passes downloads and manages DTEM (Digital Terrain
 Elevation Model) datasets and adds terrain height functionality to the
-map module. It also allows the APM to download terrain data of the
+map module. It also allows the autopilot to download terrain data of the
 surrounding area so that it has an approximate idea of its height above
 ground.
 
@@ -23,8 +23,8 @@ nearby SRTM tiles, it will cache them on the local hard drive for
 offline use.
 
 Once loaded with ``module load terrain``, the module will automatically
-download, cache and send small SRTM tiles to the APM's internal memory
-(the SD card on the Pixhawk, for example).
+download, cache and send small SRTM tiles to internal memory
+(the SD card on the autopilot, for example).
 
 The status of the module can be shown by entering ``terrain status``.
 
