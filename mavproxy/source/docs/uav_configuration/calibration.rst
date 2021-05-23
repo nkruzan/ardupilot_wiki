@@ -2,7 +2,7 @@
 Calibration
 ===========
 
-There are several commands to calibrate the various sensors on the APM:
+There are several commands to calibrate the various sensors on the autopilot:
 
 accelcal
 ========
