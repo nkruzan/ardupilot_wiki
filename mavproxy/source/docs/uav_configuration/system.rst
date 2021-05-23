@@ -7,12 +7,12 @@ There are a number of overall system and miscellaneous commands:
 reboot
 ======
 
-Reboots the APM.
+Reboots the autopilot.
 
 setup
 =====
 
-Goes into the setup (CLI) mode of the APM.
+Goes into the setup (CLI) mode of the autopilot.
 
 rc
 ==
