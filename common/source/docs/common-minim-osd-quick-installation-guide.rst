@@ -6,7 +6,7 @@ Minim OSD Quick Installation Guide
 
 `MinimOSD <https://code.google.com/archive/p/arducam-osd/wikis/minimosd.wiki>`__
 "On-Screen Display" is a small circuit board that pulls telemetry data
-from your APM or Pixhawk autopilot and over-lays it on your
+from your autopilot and over-lays it on your
 :ref:`First Person View <common-fpv-first-person-view>` monitor.
 
 This article provides brief instructions for how to connect the board.
@@ -56,7 +56,7 @@ Optional setup for critical cooling conditions
 The second stage regulator from the MinimOSD boards earlier than V1.1
 gets too hot on 12V video setups. If your frame has not a good air flow
 for cooling the OSD board you may want to feed the OSD entirely from
-APM. Probably it will add some noises from servos, but you'll be more
+the autopilot. Probably it will add some noises from servos, but you'll be more
 safe by this way:
 
 .. image:: ../../../images/DiagramaMinimOSD_OP.jpg
