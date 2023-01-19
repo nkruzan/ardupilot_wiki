@@ -404,6 +404,36 @@ Boot from microSD (boot button pressed):
     00400338
 
 
+
+`Setup Battery Voltage Monitoring`
+---------------------------------------------
+
+BeagleBone Blue exposes voltages (not current) at the barrell jack and for the lipo connector.
+
+To enable battery monitoring, Set 
+BATT_MONITOR = 3 (Analog Voltage)
+A reboot is required.
+
+if you wish to monitor the dc jack, set
+BATT2_MONITOR = 3 (Analog Voltage)
+
+
+Built-in 2S Lipo
+~~~~~~~~~~~~~~~~
+BATT_CURR_PIN = -1 (disabled)
+BATT_VOLT_PIN = 6 (AIN6)
+BATT_VOLT_MULT = 11.037 
+BATT_CRT_VOLT = 6.2
+BATT_LOW_VOLT = 6.4
+BATT_CAPACITY = XXXX
+
+
+
+
+
+
+
+
 `Connect BBBlue to a Ground Station Software`
 ---------------------------------------------
 
