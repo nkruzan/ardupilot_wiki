@@ -48,7 +48,7 @@ UART Mapping
  - SERIAL1 -> USART2     (TELEM1, RTS/CTS pins) DMA-enabled
  - SERIAL2 -> USART3     (TELEM2, RTS/CTS pins) DMA-enabled
  - SERIAL3 -> UART4      (GPS1) DMA-enabled
- - SERIAL4 -> UART8      (GPS2) TX only DMA-enabled
+ - SERIAL4 -> UART8      (GPS2) RX only DMA-enabled
  - SERIAL5 -> UART7      (Debug)
 
 Serial port protocols (Telem, GPS, etc.) can be adjusted to personal preferences using the ``SERIALx_PROTOCOL`` parameter.
